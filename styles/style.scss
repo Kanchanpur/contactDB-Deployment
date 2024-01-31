@@ -1,0 +1,224 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.scss";
+@import "./layout/sidebar";
+@import "./layout/container";
+.width50 {
+    width: 50%;
+}
+
+.displayflex {
+    display: flex;
+}
+
+.textright {
+    text-align: right;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b4a75 !important;
+    border-color: #1b4a75 !important;
+}
+
+.mr-2 {
+    margin-Right: 15px;
+}
+
+.card h6 {
+    h6 {
+        font-size: 1.5rem;
+    }
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+.addmore {
+    float: right;
+    margin-top: 37px;
+    cursor: pointer;
+    width: 2%;
+    font-size: 20px;
+}
+
+.formaccount {
+    width: 90%;
+    float: left;
+}
+
+.detailpage h5 {
+    font-size: 1rem;
+}
+.inputaccount {
+    width: 100%;
+}
+
+.width22 {
+    width: 21%;
+}
+.redclose {
+    padding-left: 10px;
+    color: red;
+}
+.card {
+    background: #fff;
+}
+.list-group {
+    background-color: #fff;
+}
+
+.subgroupaccount {
+    border: 1px solid #ccc;
+    margin: 10px;
+    height: 105px;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.addbtndetails {
+    float: left;
+    width: 20px;
+    
+} 
+.reportIcons {
+    padding-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #1b4a75;
+}
+.suggestions-container {
+    max-height: 100px; /* Set your desired maximum height */
+    overflow-y: auto; /* Add a scrollbar if necessary */
+  }
+
+  .custom-dropdown-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .custom-dropdown {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .custom-dropdown input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: calc(100% - 2px);
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1;
+  }
+  
+  .dropdown-option {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .custom-dropdown.open .dropdown-options {
+    display: block;
+  }
+  
+
+  //syed css added 
+
+  
+.subgroupaccount {
+    border: 1px solid #ccc;
+    margin: 10px;
+    height: 105px;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.addbtndetails {
+    float: left;
+    width: 20px;
+}
+
+.reportIcons {
+    padding-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #1b4a75;
+}
+
+.pagination button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #000;
+}
+
+.displayflex {
+    display: flex;
+}
+
+.titlegrp2 {
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
+.searchicontitle {
+    position: absolute;
+    left: 14px;
+    top: 9px;
+}
+
+.titlegrp2 input {
+    padding-left: 43px;
+}
+
+.custom-dropdown-container .dropdown-arrow {
+    // border: 1px solid #ccc;
+    // padding: 17px;
+    // color: #878484;
+    // border-left: 0;
+    display: none;
+} 
+
+.custom-smaller-pencil {
+    font-size: 1.6rem; /* You can adjust the size as needed */
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  #formFileSm {
+    width: 250px; /* You can adjust the width as needed */
+    margin-left: 10px; /* You can adjust the margin as needed */
+  }
